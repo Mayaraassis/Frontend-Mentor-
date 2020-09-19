@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+.Register{
+    
+    width: 135px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 20px;
+   
+    
+}
+.Register span{
+    padding-top: 10px;
+    padding-left: 40px;
+    font-weight: 600;
+    color:hsl(257, 37%, 49%);
+    
+
+}
+
+.right{
+    position: relative;
+    left: 60%;
+    top:200px;
+    max-width: 500px;
+}
+
+.right p{
+    color: azure;
+    font-weight: 400;
+}
+
+.left{
+  top:20px;
+  position: absolute;   
+}
+
+.left .logo{
+    padding-bottom: 50px;
+}

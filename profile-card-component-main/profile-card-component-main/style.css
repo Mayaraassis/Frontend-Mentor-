@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  position: relative;
+  z-index: 90;
+  margin-top: 100px;
+  width: 23vw;
+  height: 53vh;
+  background-color: white;
+  border-radius: 8px;
+}
+.top {
+  width: 23vw;
+  height: 20vh;
+  display: flex;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  justify-content: center;
+  background-image: url("images/bg-pattern-card.svg");
+  position: relative;
+}
+.imagem img {
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  border: solid 4px white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.name .p2 {
+  margin-top: 8px;
+}
+
+.name span {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+.name::after {
+  content: "";
+  position: absolute;
+  width: 23vw;
+  border: 0;
+  border-top: solid 1px hsl(0, 0%, 59%);
+  bottom: -25px;
+}
+.infos {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  display: flex;
+  margin-left: 15px;
+}
+.infos span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}

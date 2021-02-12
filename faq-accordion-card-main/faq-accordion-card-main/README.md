@@ -8,5 +8,4 @@ Este é um desafio do [Frontend Mentor](https://www.frontendmentor.io) o objetiv
 
 Veja o meu resultado no gif a seguir: 
 
-
-
+![Gif do projeto em funcionamento](https://github.com/Mayaraassis/Frontend-Mentor-/blob/master/faq-accordion-card-main/faq-accordion-card-main/faq_gif.gif)
